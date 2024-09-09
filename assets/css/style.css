@@ -1,0 +1,55 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    height: 71px;
+    align-items: center;
+    background-color: #0779E4;
+}
+
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%
+}
+
+.text-white {
+    color: white;
+}
+
+.hero {
+    background-image: url(../images/hero-bg.png);
+    height: 100vh;
+    background-size: cover;
+    padding-left: 10%;
+}
+
+.hero-info {
+   height: 60%;
+   padding-top: 10%;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.btn {
+    height: 53px;
+    padding: 16px 24px;
+    border-radius: 4px;
+}
+
+.btn-blue {
+    background-color: #0779E4;
+    color: white;
+}
+
+.btn-white {
+    color: #0779e4;
+    background-color: white;
+}
