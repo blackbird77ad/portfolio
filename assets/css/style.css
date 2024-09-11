@@ -1,57 +1,75 @@
 nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around; 
-    height: 71px;
-    align-items: center;
-    background-color: #0779E4;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 71px;
+  align-items: center;
+  background-color: #0779e4;
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 
-.nav-items{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 70%;
+.nav-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70%;
 }
 
 .text-white {
-    color: white;
+  color: white;
 }
 
 .hero {
-    background-image: url(../images/hero-bg.png);
-    height: 100vh;
-    background-size: cover;
-    padding-left: 10%;
+  background-image: url(../images/hero-bg.png);
+  height: 100vh;
+  background-size: cover;
+  padding-left: 10%;
 }
 
 .hero-info {
-   height: 60%;
-   padding-top: 10%;
-   width: 50%;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
+  height: 60%;
+  padding-top: 10%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .btn {
-    height: 53px;
-    padding: 16px 24px;
-    border-radius: 4px;
-    column-gap: 10px;
+  height: 53px;
+  padding: 16px 24px;
+  border-radius: 4px;
+  column-gap: 10px;
 }
 
 .btn-blue {
-    background-color: #0779E4;
-    color: white;
+  background-color: #0779e4;
+  color: white;
 }
 
 .btn-white {
-    color: #0779e4;
-    background-color: white;
+  color: #0779e4;
+  background-color: white;
 }
 
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* .sec-height {
+    height: 50%;
+} */
+
+.about-us-image {
+  background-image: url(../images/About-image.png);
+  background-position: center;
+  background-size: cover;
+}
